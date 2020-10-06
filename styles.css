@@ -50,3 +50,8 @@ td, th
 .tortenelem{
 	text-align: justify;
 }
+
+.card-img-top{
+	width:250px;
+	height: 170px;
+}
