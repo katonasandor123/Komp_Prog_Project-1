@@ -37,3 +37,12 @@ td, th
   text-align: left;
   padding: 8px;
 }
+
+.card-title,
+.card-text{
+	color: black;
+}
+
+.card-text{
+	font-size: 0.75em;
+}
