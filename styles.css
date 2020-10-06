@@ -46,3 +46,7 @@ td, th
 .card-text{
 	font-size: 0.75em;
 }
+
+.tortenelem{
+	text-align: justify;
+}
