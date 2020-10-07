@@ -63,3 +63,21 @@ td, th
 h3{
 	text-align: center;
 }
+
+.valutavalto{
+	text-align: center;
+}
+
+#ora
+{
+    font-size:32px;
+    width:350px;
+    margin:auto;
+    text-align:center;
+    transition:1s;
+}
+
+.oraszoveg{
+	font-size: 32px;
+	text-align: center;
+}
