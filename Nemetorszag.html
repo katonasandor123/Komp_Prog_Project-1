@@ -52,7 +52,10 @@
 		
 		<h1>Németország</h1>
 		<!--<img src='nemetorszagterkep.jpg' width="200" height="240">-->
-		
+		<p class="bevezeto">Németország (németül: Deutschland), teljes nevén Német Szövetségi Köztársaság (nemzetközi kapcsolatokban hivatalos nevén Németországi Szövetségi Köztársaság is, németül: Bundesrepublik Deutschland), szövetségi köztársaság Közép-Európában.</p>
+		<p class="bevezeto">Az Európai Unió legnépesebb országa és legerősebb gazdasága. Területe alapján a világ 63., Európa 7., az Európai Unió 4. legnagyobb országa. Északon Dánia, keleten Lengyel- és Csehország, délen Ausztria és Svájc, nyugaton Franciaország és a Benelux államok határolják.</p>
+		<p class="bevezeto">A 21. századi Németország globális nagyhatalom a világ negyedik vezető gazdaságával. Ipari és technológiai téren globális főszereplő, egyszersmind a világ harmadik legnagyobb exportőre és importőre. Emberi fejlettségi indexe alapján a világ negyedik legfejlettebb országa. A Német Szövetségi Köztársaság egyik alapító tagja volt az Európai Gazdasági Közösségnek (1957) és az Európai Uniónak (1993). Németország része a schengeni és euróövezetnek, tagja az Egyesült Nemzetek Szervezetének, a NATO-nak, a G7-nek (korábban G8), a G20-nak és az OECD-nek. Területén 2019-ben 46 világörökségi helyszín található.</p>
+			
 		<h2>Fővárosáról</h2>
 	Németország fővárosa Berlin.<br>
 	3,5 millió lakosával a legnépesebb és kiterjedésében is legnagyobb városa Németországnak.<br>
@@ -360,5 +363,45 @@
 			</td>
 		</tr>
 		</table>
+		<p></p>
+		<form id = "kerdoiv" name = "kerdoiv" onsubmit = "return validateForm()" method = "post">
+			<h1>Kérdőív</h1>
+			<h3>Amennyiben már járt Németországban, kérjük töltse ki kérdőívünket az ott tapasztalt élményeiről!</h3>
+
+			<p>
+				Mennyire tetszett Németország?<br />
+				<select name = "tettszes" id = "tettszes">
+					<option value = "tetszes0" selected>Válassza ki, mennyire tetszett Önnek</option>
+					<option value = "tetszes5">Nagyon tetszett</option>
+					<option value = "tettszes4">Tetszett</option>
+					<option value = "tettszes3">Elment</option>
+					<option value = "tettszes2">Nem tetszett</option>
+					<option value = "tettszes1">Nagyon nem tetszett</option>
+				</select>
+			</p>
+
+			<p>
+				Visszamenne-e újra?<br />
+				<input type = "radio" id = "visszaigen" value = "visszaigen" name = "vissza"><label for = "vissza">Igen</label><br />
+				<input type = "radio" id = "visszanem" value = "visszanem" name = "vissza"><label for = "vissza">Nem</label>
+			</p>
+	
+			<p>
+				Mi tetszett Önnek a legjobban Németországban? <br />
+				<textarea id = "comment" name = "comment" rows = "3" cols = "60"></textarea>
+			</p>
+
+			<p>
+				Milyen célból utazott Németországba?<br />
+				<input type = "checkbox" id = "celuzleti" value = "celuzleti" name = "cel"><label for = "celuzleti">Üzleti út</label><br />
+				<input type = "checkbox" id = "celnyaralas" value = "celnyaralas" name = "cel"><label for = "celnyaralas">Nyaralás</label><br />
+				<input type = "checkbox" id = "celegyeb" value = "celegyeb" name = "cel"><label for = "celegyeb">Egyéb</label>
+			</p>
+	
+			<p>
+				<input type = "submit" value = "Küldés">
+				<input type = "reset" value = "Törlés">
+			</p>
+		</form>	
 	</body>
 </html>
