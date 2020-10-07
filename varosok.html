@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="styles.css">
 		<title>Németország</title>
+		<script src="js.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,86 +49,89 @@
 	    </nav>
 
         <div class="container">
+	<p class="oraszoveg">A pontos idő:</p>
+	<p id="ora"></p>
+	<br>
         <div class="row">
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/berlin.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/berlin.png" alt="Berlin" title="Berlin">
                 <div class="card-body">
                     <h4 class="card-title">Berlin</h4>
                     <p class="card-text">Berlin Németország fővárosa, egyben tartományi rangú városállama (szövetségi tartománya) és a Berlin/Brandenburg nagyvárosi régió centruma. 3,5 millió lakosával Németország legnépesebb és kiterjedésében is legnagyobb városa, egyben az Európai Unió legnépesebb városa. A berlini agglomeráció a 7 millió fős lakosságával Németország második legnagyobb agglomerációja a Rajna-Ruhr után.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/hamburg.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/hamburg.png" alt="Hamburg" title="Hamburg">
                 <div class="card-body">
                     <h4 class="card-title">Hamburg</h4>
                     <p class="card-text">Hamburg Németország második legnagyobb városa, a szövetségi köztársaság egyik önálló városállama, a hamburgi városrégió központi települése, a Hamburgi főegyházmegye érseki székvárosa. Hamburg az Európai Unió legnagyobb olyan városa, amely nem egy tagállam fővárosa. A városnak mintegy 1,8 millió lakosa van, további 750 000 lakos él az agglomerációban. Rotterdam és Antwerpen után Európa harmadik legnagyobb forgalmú kikötővárosa.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/munchen.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/munchen.png" alt="München" title="München">
                 <div class="card-body">
                     <h4 class="card-title">München</h4>
                     <p class="card-text">München a legnagyobb német tartomány, Bajorország fővárosa. Lélekszámát tekintve Berlin és Hamburg után Németország harmadik, a német nyelvterület negyedik, az Európai Unió tizenkettedik legnagyobb városa. München népessége 1 378 176 fő, agglomerációjával együtt lakossága körülbelül 3 130 000 fő. A város egyben az 5,7 millió lakost számláló modern gazdasági körzet, a München nagyvárosi régió központja.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/koln.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/koln.png" alt="Köln" title="Köln">
                 <div class="card-body">
                     <h4 class="card-title">Köln</h4>
                     <p class="card-text">Köln Németország negyedik legnagyobb, Észak-Rajna-Vesztfália szövetségi tartomány legnagyobb városa. A Rajna mentén terül el, a híres kölni dóm a kölni érsek székhelye. Egyeteme egyike Európa legrégebbi univerzitásainak.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/frankfurt.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/frankfurt.png" alt="Frankfurt am Main" title="Frankfurt am Main">
                 <div class="card-body">
                     <h4 class="card-title">Frankfurt am Main</h4>
                     <p class="card-text">Frankfurt am Main Hessen tartomány legnagyobb, Németország ötödik legnagyobb városa több, mint 761 ezer lakosa van. Az agglomerációval együtt kb. 2,5 millió. A mai német közigazgatás rendszerében járási jogú város. A város egyben Németország legnagyobb tartományi határokon is átívelő, 5,8 millió lakost számláló modern gazdasági körzetének, a Rajna–Majna nagyvárosi régió központja.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/stuttgard.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/stuttgard.png" alt="Stuttgart" title="Stuttgart">
                 <div class="card-body">
                     <h4 class="card-title">Stuttgart</h4>
                     <p class="card-text">Stuttgart város Németországban, Baden-Württemberg tartomány fővárosa. Lakosainak száma kb. 630 000 fő. A Neckar folyó völgyében található.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/dusseldolf.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/dusseldolf.png" alt="Düsseldolf" title="Düsseldolf">
                 <div class="card-body">
                     <h4 class="card-title">Düsseldorf</h4>
                     <p class="card-text">Düsseldorf város Németországban, Észak-Rajna-Vesztfália szövetségi tartomány fővárosa. Németország egyik legnagyobb és legfontosabb városa. Jelentős közlekedési csomópont és pénzügyi központ.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/dortmund.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/dortmund.png" alt="Dortmund" title="Dortmund">
                 <div class="card-body">
                     <h4 class="card-title">Dortmund</h4>
                     <p class="card-text">Dortmund a Ruhr-vidék legnagyobb, Németország nyolcadik legnagyobb városa Észak-Rajna-Vesztfália tartományban fekszik, amely mára számos kulturális látnivalót kínáló modern metropolisszá fejlődött.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/essen.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/essen.png" alt="Essen" title="Essen">
                 <div class="card-body">
                     <h4 class="card-title">Essen</h4>
                     <p class="card-text">Essen Észak-Rajna-Vesztfália központjában, Németországban található. A város lakossága meghaladja az 590 000 főt (2017. december 31-i adat), ezzel a kilencedik legnépesebb német város. 2010-ben Európa kulturális fővárosainak egyike volt. Fontos szerepet játszik a Ruhr-vidék gazdaságában és közlekedésében. 1957 óta katolikus püspöki székhely.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/lipcse.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/lipcse.png" alt="Lipcse" title="Lipcse">
                 <div class="card-body">
                     <h4 class="card-title">Lipcse</h4>
                     <p class="card-text">Lipcse Németország keleti részén fekvő város, a szász szövetségi tartomány legnagyobb városa, a Drezda-Meißeni egyházmegye püspöki székvárosa. Nevét a Lipsk szláv szóból kapta, jelentése: „Ahol a hársfák állnak”. A város a Pleisse, a Fehér Elster és a Parthe folyók találkozásánál fekszik.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/brema.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/brema.png" alt="Bréma" title="Bréma">
                 <div class="card-body">
                     <h4 class="card-title">Bréma</h4>
                     <p class="card-text">Bréma német nagyváros, hivatalosan szabad Hanza-város, Németország északnyugati részén fekszik, Bréma tartomány székhelye. Egyike annak a három városnak, amelyek szabad tartományi jogállással rendelkeznek. Jelentős tudományos és kulturális centrum, kikötői révén pedig Németország tengerentúli kereskedelmének egyik meghatározó központja. A Bréma-Oldenburg európai városrégió domináns települése, lakossága vonzáskörzetével együtt 2,37 millió fő.</p>
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <img class="card-img-top" src="varoskepek/drezda.png" alt="Card image cap">
+                <img class="card-img-top" src="varoskepek/drezda.png" alt="Drezda" title="Drezda">
                 <div class="card-body">
                     <h4 class="card-title">Drezda</h4>
                     <p class="card-text">Drezda a németországi szász szövetségi tartomány fővárosa és egyben második legnagyobb városa az Elba folyó partján, közel a cseh határhoz. A város a tartomány gazdasági és pénzügyi központi szerepe mellett fontos kulturális szerepet tölt be, ami miatt gyakran nevezik az „Elba Firenzéje” néven.</p>
