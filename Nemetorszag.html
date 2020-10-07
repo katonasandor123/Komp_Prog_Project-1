@@ -28,10 +28,10 @@
                 		</li>
                 		<li class="nav-item dropdown">
                     			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						#
+						Továbbiak
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">##</a>
+						<a class="dropdown-item" href="folyoi.html">Folyói</a>
 						<a class="dropdown-item" href="#">##</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">##</a>
@@ -48,6 +48,10 @@
 		</div>
 	    	</nav>
 
+		<div class="container">
+		<p class="oraszoveg">A pontos idő:</p>
+		<p id="ora"></p>
+		<br>
 		<div class="container">
 		
 		<h1>Németország</h1>
@@ -403,5 +407,18 @@
 				<input type = "reset" value = "Törlés">
 			</p>
 		</form>	
+		
+	<h1>Valutaváltó</h1>
+	<h2 class="valutavalto">Németorszagban eurót használnak! Tudja meg, hány forint hány euró, illetve hány euró hány forint!</h2>
+	<form>
+            <input type="number" id ="ertek" placeholder="Írja be a valutát" min="0" onchange="Szamol()">
+                <select id="valaszt">
+                    <option value="ft"> HUF</option>
+                    <option value="eur"> EUR</option>
+                </select>
+            = <span id="eredmeny"></span>
+            <p><input type="button" value="Számolás"
+            onclick="Szamol()"></p>
+        </form> 
 	</body>
 </html>
